@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: trident-use/ontap-san.html 
+keywords: trident backend, ontap san, ontap-san, ontap-san-economy 
+summary: 深入瞭解如何使用ONTAP 支援支援功能的SAN驅動程式來設定支援功能的後端。ONTAP 
+---
+= 使用ONTAP SAN驅動程式設定後端
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+深入瞭解如何使用ONTAP 支援功能不支援的功能和功能、以及如何使用ONTAP 功能不Cloud Volumes ONTAP 支援的功能。
+
+* link:ontap-san-prep.html["準備"^]
+* link:ontap-san-examples.html["組態與範例"^]
+
+
+
+
+== 使用者權限
+
+Astra Trident希望以ONTAP 支援或SVM管理員的身分執行、通常是使用「admin」叢集使用者或「vsadmin」SVM使用者、或使用具有相同角色的不同名稱使用者。對於Amazon FSx for NetApp ONTAP 等部署、Astra Trident預期會使用ONTAP 叢集「fsxadmin」使用者或「vsadmin」SVM使用者、或是具有相同角色之不同名稱的使用者、來執行成一個或多個SVM管理員。「fsxadmin」使用者是叢集管理使用者的有限替代。
+
+
+NOTE: 如果您使用「limitAggregateusage」參數、則需要叢集管理權限。使用Amazon FSx for NetApp ONTAP 支援Astra Trident時、「limitAggregateusage」參數無法搭配「vsadmin」和「fsxadmin」使用者帳戶使用。如果您指定此參數、組態作業將會失敗。

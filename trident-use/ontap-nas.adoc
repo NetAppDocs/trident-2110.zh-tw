@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: trident-use/ontap-nas.html 
+keywords: trident backend, ontap nas, ontap-nas, ontap-nas-economy, ontap-nas-flexgroups 
+summary: 瞭解如何使用ONTAP NetApp NAS驅動程式設定功能的功能。ONTAP 
+---
+= 使用ONTAP NetApp NAS驅動程式設定後端
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+瞭解如何使用ONTAP 功能不統一的或功能不統一的NAS驅動程式來設定功能不統一的後端。ONTAP Cloud Volumes ONTAP
+
+* link:ontap-nas-prep.html["準備"^]
+* link:ontap-nas-examples.html["組態與範例"^]
+
+
+
+
+== 使用者權限
+
+Astra Trident希望以ONTAP 支援或SVM管理員的身分執行、通常是使用「admin」叢集使用者或「vsadmin」SVM使用者、或使用具有相同角色的不同名稱使用者。對於Amazon FSx for NetApp ONTAP 等部署、Astra Trident預期會使用ONTAP 叢集「fsxadmin」使用者或「vsadmin」SVM使用者、或是具有相同角色之不同名稱的使用者、來執行成一個或多個SVM管理員。「fsxadmin」使用者是叢集管理使用者的有限替代。
+
+
+NOTE: 如果您使用「limitAggregateusage」參數、則需要叢集管理權限。使用Amazon FSx for NetApp ONTAP 支援Astra Trident時、「limitAggregateusage」參數無法搭配「vsadmin」和「fsxadmin」使用者帳戶使用。如果您指定此參數、組態作業將會失敗。
