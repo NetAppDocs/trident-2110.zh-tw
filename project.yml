@@ -12,7 +12,7 @@ settings:
     url: "/trident-2110"
     version-number: '21.10'
   - name: Astra Trident
-    url: "/trident-22.01"
+    url: "/trident-2201"
     version-number: '22.01'
   - name: Astra Trident
     url: "/trident-2107"
