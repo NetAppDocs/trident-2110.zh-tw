@@ -16,6 +16,7 @@ summary: 瞭Cloud Volumes Service 解如何使用提供的範例組態、將適�
 
 NOTE: AWS適用的支援磁碟區容量不低於100 GB。Cloud Volumes Service如果要求較小的磁碟區、Trident會自動建立100-GB磁碟區。
 
+.您需要的產品
 以設定及使用 https://cloud.netapp.com/cloud-volumes-service-for-aws?utm_source=NetAppTrident_ReadTheDocs&utm_campaign=Trident["AWS 適用的 Cloud Volumes Service"^] 後端、您需要下列項目：
 
 * 使用NetApp CVS設定的AWS帳戶

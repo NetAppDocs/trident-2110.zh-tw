@@ -51,7 +51,7 @@ Usage:
 
 
 
-== 建立
+== `create`
 
 您可以使用執行「create」命令、將資源新增至Astra Trident。
 
@@ -64,7 +64,7 @@ Usage:
 
 
 
-== 刪除
+== `delete`
 
 您可以執行「刪除」命令、從Astra Trident移除一或多個資源。
 
@@ -84,7 +84,7 @@ Usage:
 
 
 
-== 取得
+== `get`
 
 您可以執行「Get」命令、從Astra Trident取得一或多個資源。
 
@@ -103,7 +103,7 @@ Usage:
 
 
 
-== 映像
+== `images`
 
 您可以執行「影像」旗標、以列印容器影像Astra Trident需求的表格。
 
@@ -116,7 +116,7 @@ Usage:
 
 
 
-== 匯入Volume
+== `import volume`
 
 您可以執行「匯入Volume」命令、將現有磁碟區匯入Astra Trident。
 
@@ -136,7 +136,7 @@ Usage:
 
 
 
-== 安裝
+== `install`
 
 您可以執行「install」旗標來安裝Astra Trident。
 
@@ -168,7 +168,7 @@ Usage:
 
 
 
-== 記錄
+== `logs`
 
 您可以執行「記錄」旗標、從Astra Trident列印記錄。
 
@@ -189,7 +189,7 @@ Usage:
 
 
 
-== 傳送
+== `send`
 
 您可以執行「shend」命令、從Astra Trident傳送資源。
 
@@ -215,7 +215,7 @@ Usage:
 
 
 
-== 更新
+== `update`
 
 您可以執行「update」命令來修改Astra Trident中的資源。
 
@@ -228,7 +228,7 @@ Usage:
 
 
 
-== 升級
+== `upgrade`
 
 您可以執行「升級」命令來升級Astra Trident中的資源。
 
@@ -241,7 +241,7 @@ tridentctl upgrade [option]
 
 
 
-== 版本
+== 「分度」
 
 您可以執行「vrsion」旗標來列印「tridentctl」版本和執行中的Trident服務。
 
