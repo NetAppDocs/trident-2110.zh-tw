@@ -2230,30 +2230,8 @@
   <block id="3179d8563cd49690a141c34c045dfab8" category="paragraph">在非csi前端中、磁碟區作為工作節點上的裝置附加作業是由Kubernetes處理。建立磁碟區之後、Astra Trident會呼叫NetApp HCI / SolidFire系統、以便在該租戶的機密資訊尚未存在時擷取機密資訊。然後、Astra Trident將機密傳給Kubernetes。位於每個節點上的Kubelet可透過Kubernetes API存取機密資料、並使用它們在存取磁碟區的每個節點與磁碟區所在的NetApp HCI / SolidFire系統之間執行/啟用CHAP。</block>
   <block id="34c4dac14496e9c45d92f345d9392fc8" category="summary">如果您未執行最新版本、則可取得舊版Astra Trident的文件。</block>
   <block id="ba09ee47d11962c1ccd13d7e1f10e6c5" category="doc">較早版本的文件</block>
-  <block id="ebb6d1f6681020925f184345a6a955aa" category="paragraph">如果您未執行Astra Trident 21/10、則可取得先前版本的文件。</block>
-  <block id="9f687b4e8cbf2fbb623b26b30fd92717" category="admonition">若為21：07之前的版本、您將被重新導向至舊版文件網站。</block>
   <block id="a93e9e44b7a375a4236260f5ff2b251e" category="inline-link">Astra Trident 21.07</block>
   <block id="3830d427e146a8a64454dc373d9b1502" category="list-text"><block ref="3830d427e146a8a64454dc373d9b1502" category="inline-link-rx"></block></block>
-  <block id="0c141ec81d4107f4c63fb0deb2531c0d" category="inline-link">Astra Trident 21.04.</block>
-  <block id="193bfae1ebda99fb7289c66fa69395a0" category="list-text"><block ref="193bfae1ebda99fb7289c66fa69395a0" category="inline-link-rx"></block></block>
-  <block id="cba2c660d905f83e39a0d1771286c9e7" category="inline-link">Astra Trident 21.01.</block>
-  <block id="97f32ab1a5165dc49105dca53b9f4de7" category="list-text"><block ref="97f32ab1a5165dc49105dca53b9f4de7" category="inline-link-rx"></block></block>
-  <block id="727d2d1e15a5c7260e90c50b1c250a4c" category="inline-link">Astra Trident 20.10</block>
-  <block id="8a0315074645cbbab67a7445dcdf42f2" category="list-text"><block ref="8a0315074645cbbab67a7445dcdf42f2" category="inline-link-rx"></block></block>
-  <block id="bad2b8fa41c05085668e48d7c14968dc" category="inline-link">Astra Trident 20.07</block>
-  <block id="449d7e957347de63ee3d9841c40b4e7f" category="list-text"><block ref="449d7e957347de63ee3d9841c40b4e7f" category="inline-link-rx"></block></block>
-  <block id="7c0a09ca9ea4472728e4661755a43c6b" category="inline-link">Astra Trident 20.04</block>
-  <block id="8a72b28486832ed8c725617460afbdcb" category="list-text"><block ref="8a72b28486832ed8c725617460afbdcb" category="inline-link-rx"></block></block>
-  <block id="1dc5429c6c86712d7628beb5652a0e2e" category="inline-link">Astra Trident 20.01</block>
-  <block id="23204facdc38bad335a6afce81db0827" category="list-text"><block ref="23204facdc38bad335a6afce81db0827" category="inline-link-rx"></block></block>
-  <block id="5b2d210bf907d26b59abbaa0e22fbbe6" category="inline-link">Astra Trident 19.10</block>
-  <block id="3377906a52734323c44c8f31b2d29e63" category="list-text"><block ref="3377906a52734323c44c8f31b2d29e63" category="inline-link-rx"></block></block>
-  <block id="f1d7fe87216a18ff3ffcfa98d6065689" category="inline-link">Astra Trident 19.07</block>
-  <block id="12e29d431cea2700aa9d89e0c89e67bc" category="list-text"><block ref="12e29d431cea2700aa9d89e0c89e67bc" category="inline-link-rx"></block></block>
-  <block id="fe4bdabecc64b786523a3d86bb1f9cfd" category="inline-link">Astra Trident 19.04</block>
-  <block id="e43783d5a51a10670edf444f0b58b6af" category="list-text"><block ref="e43783d5a51a10670edf444f0b58b6af" category="inline-link-rx"></block></block>
-  <block id="5e152ff33f3262612abc4b942db27ad1" category="inline-link">Astra Trident 19.01</block>
-  <block id="977636e26059252def0425dca74811ef" category="list-text"><block ref="977636e26059252def0425dca74811ef" category="inline-link-rx"></block></block>
   <block id="dec54888538ac86f51d29a3d043e6bf6" category="summary">您可以使用業者輕鬆升級現有的Astra Trident安裝。</block>
   <block id="5ff3faebb0ff710340bdbee89a4667ad" category="doc">與營運者一起升級</block>
   <block id="b8ce48f9165ac0cead930cd72b36b5ac" category="paragraph">若要使用營運者進行升級、應符合下列條件：</block>
@@ -2965,19 +2943,7 @@
   <block id="ddca1769e17014f8aa13c7b56059981f" category="sidebar">Astra Trident 21/10文件</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">舊版</block>
-  <block id="0629fb104936d0fb60cc736b6cb01caa" category="sidebar">Astra Trident的需求</block>
-  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
-  <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">常見問題集</block>
-  <block id="312b0dc38b01ff32c1b2f5f81ee1ab2d" category="sidebar">與Trident營運者一起部署</block>
-  <block id="6a693eb5cd23e4e5743663c7edc37aed" category="sidebar">部署適用於Docker的Astra Trident</block>
-  <block id="386307d41b3f4169a1e6e046a727cdd2" category="sidebar">與Trident營運者一起升級</block>
   <block id="eb1f347fa6176ae2c9175df3bc414954" category="sidebar">使用Astra Trident</block>
-  <block id="81a123ccab93cd947289b672b0e50348" category="sidebar">示範教學課程</block>
-  <block id="28348a71bed382b86fa6de4d3a307715" category="sidebar">Astra Trident影片</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格社群</block>
-  <block id="6394eceb2639574114b02e6e817eb19a" category="sidebar">Astra部落格</block>
-  <block id="874d8a5301794a9ca2aba132ac2460f3" category="sidebar">Kubernetes Hub</block>
-  <block id="d59c00abbeaf33a9a094b3a69c563405" category="sidebar">NetApp.IO</block>
   <block id="f14894e4c400a400c02367258a93029a" category="sidebar">適合Docker的Astra Trident</block>
   <block id="e08bfc79c5202517b3814efd6e82fb2c" category="sidebar">升級或解除安裝Trident</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
@@ -2988,7 +2954,6 @@
   <block id="c949166d6970748c0094c800daa3324a" category="sidebar">管理Astra Trident</block>
   <block id="63d5049791d9d79d86e9a108b0a999ca" category="sidebar">參考資料</block>
   <block id="324fb1352ffffb105d10013810c42896" category="sidebar">Kubernetes和Astra Trident物件</block>
-  <block id="086e6c16e3fe8e13c336612ef636aa02" category="sidebar">Astra Trident</block>
   <block id="5a333b18a215ecfd4457ba0e1732654b" category="section-title">是否能在已設定負載共享鏡射的SVM上、對磁碟區進行Trident資源配置？</block>
   <block id="0e7629426b9d7596800cd5d72f558a7f" category="paragraph">您可以為透過NFS提供資料的SVM根磁碟區建立負載共享鏡像。針對Trident所建立的磁碟區、自動更新負載共享鏡像。ONTAP這可能會導致掛載磁碟區延遲。使用Trident建立多個磁碟區時、資源配置磁碟區會仰賴ONTAP 於更新負載共享鏡像。</block>
   <block id="de781ae8dbfd68aeef56f40c5dc767da" category="paragraph">Astra Trident預期以「vsadmin」SVM使用者或具有相同角色之不同名稱的使用者身分執行。Amazon FSx for NetApp ONTAP 的使用者是「fsxadmin」使用者、只能有限地取代ONTAP 「admin」叢集使用者。不建議將「fsxadmin」使用者搭配Trident使用、因為「vsadmin」SVM使用者可以存取更多Astra Trident功能。</block>
@@ -3097,4 +3062,5 @@
   <block id="da66575a36601082676fb1d5422feba6" category="admonition">升級時、請務必提供<block ref="f6e7f85d8aee15940665bf722f7afac2" prefix=" " category="inline-code"></block> 在中<block ref="f652904c3bfb48fb25a0a75f485f0ff6" prefix=" " category="inline-code"></block> 由Astra Trident使用。您可以刪除並重新建立<block ref="f652904c3bfb48fb25a0a75f485f0ff6" prefix=" " category="inline-code"></block> 無需中斷既有的磁碟區。這是對 SAN 磁碟區強制執行 https://kubernetes.io/docs/tasks/configure-pod-container/security-context/[security 內容 ^] 的 ** 需求 ** 。https://github.com/NetApp/trident/tree/master/trident-installer/sample-input[sample INPUT ^] 目錄包含 https://github.com/NetApp/trident/blob/master/trident-installer/sample-input/storage-class-samples/storage-class-basic.yaml.templ 等範例<block ref="9abb8c7777ddb413820ee07d5d93aa4a" prefix="[" category="inline-code"></block>^] 和連結： https://github.com/NetApp/trident/blob/master/trident-installer/sample-input/storage-class-samples/storage-class-bronze-default.yaml<block ref="69ae2d9a6d831af7488e53fec053b77e" prefix="[" category="inline-code"></block>^]。
 如需詳細資訊、請參閱 <block ref="139a59f2208174d2bf825b80dc580275" category="inline-link-macro-rx"></block>。</block>
   <block id="da4ba399089f873246a85825f8a3e1c3" category="list-text">完成後、請取得所需版本的Trident二進位檔（本範例為20.07）、並使用它來安裝Astra Trident。您可以為產生自訂YAML <block ref="a251ebefafa5a5d36d857b7034f07489" category="inline-link-macro-rx"></block> 如有需要。</block>
+  <block id="9b19ca104aa9090dc59a99d64ff7f0ef" category="paragraph">如果您未執行 Astra Trident 21.10 、也可以取得先前版本的文件。</block>
 </blocks>
